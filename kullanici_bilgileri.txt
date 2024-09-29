@@ -1,0 +1,20 @@
+5522612829
+pass: Et6yHBCiYW2zcJ7
+
+
+
+
+
+
+API Adı:  5522612829
+Anahtar:  66f8fa2d51fd880001dc3084
+Secret:
+API Secret anahtarı geri alınamaz ve YALNIZCA bir kez gösterilecektir. Lütfen güvende tutun.
+60710427-1d7c-4571-866c-b0d6b98e43c2
+Kullanımı:  API tabanlı işlemler
+API Kısıtlamaları:  Genel,Vadeli İşlem,Spot İşlem,KuCoin Earn,FlexTransfers'e izin ver,Çekme,Marjin İşlem
+IP Erişimi:  95.2.8.148
+
+
+
+
