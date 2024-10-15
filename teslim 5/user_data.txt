@@ -1,0 +1,3 @@
+API_KEY =xxx
+API_SECRET =xxx
+API_PASSPHRASE =xxx
