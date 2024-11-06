@@ -565,7 +565,7 @@ QTimeEdit, QToolBox, QToolBox::tab, QToolBox::tab:selected {
       </attribute>
       <column>
        <property name="text">
-        <string>Hacim(USDT)</string>
+        <string>Hacim(USDT/USDT)</string>
        </property>
       </column>
       <column>

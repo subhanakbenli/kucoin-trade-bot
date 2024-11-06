@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'c:\Users\suakb\supi\bionluk\kucoin-trade-bot\ui_design\arayuz.ui'
+# Form implementation generated from reading ui file 'c:\Users\suakb\supi\bionluk\kucoin-trade-bot\teslim 6\kaynak kod\ui_design\arayuz.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
 #
@@ -20,7 +20,7 @@ class Ui_MainWindow_bot(object):
         font.setPointSize(10)
         MainWindow_bot.setFont(font)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("c:\\Users\\suakb\\supi\\bionluk\\kucoin-trade-bot\\ui_design\\../../../../../../.designer/backup/icon.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.On)
+        icon.addPixmap(QtGui.QPixmap("c:\\Users\\suakb\\supi\\bionluk\\kucoin-trade-bot\\teslim 6\\kaynak kod\\ui_design\\../../../../../../.designer/backup/icon.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.On)
         MainWindow_bot.setWindowIcon(icon)
         MainWindow_bot.setAutoFillBackground(False)
         MainWindow_bot.setStyleSheet("/*\n"
@@ -598,7 +598,7 @@ class Ui_MainWindow_bot(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow_bot.setWindowTitle(_translate("MainWindow_bot", "kucoin trade"))
         item = self.tableWidget.horizontalHeaderItem(0)
-        item.setText(_translate("MainWindow_bot", "Hacim(USDT)"))
+        item.setText(_translate("MainWindow_bot", "Hacim(USDT/USDT)"))
         item = self.tableWidget.horizontalHeaderItem(1)
         item.setText(_translate("MainWindow_bot", "Bakiye (BTC/USDT)"))
         item = self.tableWidget.horizontalHeaderItem(2)
