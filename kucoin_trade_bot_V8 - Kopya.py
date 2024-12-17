@@ -646,9 +646,11 @@ def dusus_tetiklendi(currency, row):
         # handle_order_error(f"{currency} düşüş işlemi hacimden kaynaklı yapılamadı!")
         return
     
-    price = get_price_from_row(row, 3)
-
-    volume =token_1 * price
+    maliyet = parse_float_from_cell(ui.tableWidget.item(row, 4).text() if ui.tableWidget.item(row, 4) else None, 0)
+    if maliyet == 0:
+        price = get_price_from_row(row, 3)
+        maliyet = price  
+    volume =maliyet * price
     islem_hacmi = islem_hacmi - volume
     islem_hacmi = min(islem_hacmi, token_2)
     # print(islem_hacmi,volume)
